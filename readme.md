@@ -39,7 +39,7 @@ The dataset includes the following features:
 
 ### Workflow Overview
 
-![Feature Correlation Heatmap](images/featureCorrelationHeatmap.png)
+![Feature Correlation Heatmap](Images/featureCorrelationHeatmap.png)
 
 This heatmap allowed us to identify multicollinearity and correlated inputs before clustering.
 
@@ -67,7 +67,7 @@ Segment the islands based on their happiness features to discover latent groups 
 
 ### Heatmap of Feature Correlation
 
-![Heatmap](images/heatmap.png)
+![Heatmap](Images/heatmap.png)
 
 This shows the correlation structure among variables pre-clustering.
 
@@ -76,7 +76,7 @@ This shows the correlation structure among variables pre-clustering.
 - **Silhouette Score:** `0.0968`
 - **Number of Clusters:** 4
 
-![K-Means Clusters](images/kmean.png)
+![K-Means Clusters](Images/kmean.png)
 
 K-Means provided clearly separated clusters with relatively even distribution.
 
@@ -85,7 +85,7 @@ K-Means provided clearly separated clusters with relatively even distribution.
 - **Silhouette Score:** `0.0833`
 - **Number of Clusters:** 4
 
-![MiniBatch Clusters](images/Minibatch.png)
+![MiniBatch Clusters](Images/Minibatch.png)
 
 MiniBatch K-Means showed similar structure to standard K-Means with slightly varied grouping.
 
