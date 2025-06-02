@@ -10,7 +10,7 @@
 
 ## 1. Introduction
 
-Euphoria is a digital archipelago of islands, each offering unique experiences. The goal of this project is to segment these islands based on their "happiness levels" so that visitors can discover their ideal destination. Using unsupervised learning, specifically clustering techniques, we group similar islands together. The dataset `euphoria.csv` describes various attributes of these islands, from infrastructure and amenities to environmental and demographic features.
+Euphoria is a digital archipelago of islands, each offering unique experiences. The goal of our project is to segment these islands based on their "happiness levels" so that visitors can discover their ideal destination. Using unsupervised learning, specifically clustering techniques, we group similar islands together. The dataset `euphoria.csv` describes various attributes of these islands, from infrastructure and amenities to environmental and demographic features.
 
 ---
 
@@ -100,7 +100,7 @@ DBSCAN struggled due to high-dimensional sparsity and inconsistent densities.
 
 ## 5. Conclusion
 
-This project demonstrates the effectiveness of unsupervised clustering in segmenting islands based on happiness-driven features in the world of Euphoria. K-Means and MiniBatch K-Means revealed four meaningful groups that can guide digital travelers in selecting their ideal destination.
+By the way, our project demonstrates the effectiveness of unsupervised clustering in segmenting islands based on happiness-driven features in the world of Euphoria. K-Means and MiniBatch K-Means revealed four meaningful groups that can guide digital travelers in selecting their ideal destination.
 
 While DBSCAN was less effective on this dataset, future directions could include:
 - Trying hierarchical clustering or Gaussian Mixture Models.
